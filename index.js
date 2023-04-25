@@ -25,6 +25,7 @@ issueButton.addEventListener('click', function () {
 
   updateSpan('currIssue', issueQty)
   document.getElementById('issueAmount').value = ''
+  updateSpan('blnc', -1 * issueQty)
 })
 
 function updateSpan(id, qty) {
