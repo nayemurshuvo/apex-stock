@@ -1,0 +1,33 @@
+body {
+    padding: 100px;
+}
+
+.submit-area{
+    padding: 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+#calculation-area{
+    display: none;
+}
+
+.status{
+    margin: 0px 20px;
+    padding: 40px;
+    color: white;
+    border-radius: 10px;
+}
+
+.rcv{
+    background-color: lightcoral;
+}
+
+.issue{
+    background-color: lightsalmon;
+}
+
+.balance{
+    background-color: greenyellow;
+}
